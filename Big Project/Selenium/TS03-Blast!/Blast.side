@@ -1,0 +1,552 @@
+{
+  "id": "104e6cb1-b5df-4cb9-83ea-c8be348328cf",
+  "version": "2.0",
+  "name": "Blast!",
+  "url": "https://staging.cicle.app/teams/61113436ca295354773160da",
+  "tests": [{
+    "id": "b35cc3e4-66b5-4112-bcf8-2eac75671f2c",
+    "name": "TC03.1 Blast the message",
+    "commands": [{
+      "id": "9e8a7530-2ce9-4da1-a2e5-3bfc6e85d18c",
+      "comment": "",
+      "command": "open",
+      "target": "https://staging.cicle.app/teams/61113436ca295354773160da",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "9508ffc1-aff6-4e33-9fca-66445acd9a59",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "974x768",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "d7894923-6756-466d-b6f6-c8c0a1b9dcf0",
+      "comment": "",
+      "command": "click",
+      "target": "css=.TeamPage_colBox__1rz7F:nth-child(2) .card-title",
+      "targets": [
+        ["css=.TeamPage_colBox__1rz7F:nth-child(2) .card-title", "css:finder"],
+        ["xpath=//div[@id='root']/div[2]/div/div[2]/div/div[3]/div[2]/a/div/div/div", "xpath:idRelative"],
+        ["xpath=//div[2]/a/div/div/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "8f4d26e1-7251-41aa-86e4-3c15001b7ae3",
+      "comment": "",
+      "command": "click",
+      "target": "css=.btn",
+      "targets": [
+        ["css=.btn", "css:finder"],
+        ["xpath=//button[@type='button']", "xpath:attributes"],
+        ["xpath=//div[@id='root']/div[2]/div/div[2]/div/div/div[2]/button", "xpath:idRelative"],
+        ["xpath=//button", "xpath:position"],
+        ["xpath=//button[contains(.,'+ Create Blast!')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "20e40de2-0e2d-4e20-a2da-eb7d6df77224",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "id=moreText-1",
+      "targets": [
+        ["id=moreText-1", "id"],
+        ["css=#moreText-1", "css:finder"],
+        ["xpath=//button[@id='moreText-1']", "xpath:attributes"],
+        ["xpath=//div[@id='root']/div[2]/div/div[2]/div/div[2]/div/div/div/div/button[6]", "xpath:idRelative"],
+        ["xpath=//button[6]", "xpath:position"],
+        ["xpath=//button[contains(.,'More Text')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "9761a1f3-af65-49c3-bd1d-af7367191d92",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "id=moreText-1",
+      "targets": [
+        ["id=moreText-1", "id"],
+        ["css=#moreText-1", "css:finder"],
+        ["xpath=//button[@id='moreText-1']", "xpath:attributes"],
+        ["xpath=//div[@id='root']/div[2]/div/div[2]/div/div[2]/div/div/div/div/button[6]", "xpath:idRelative"],
+        ["xpath=//button[6]", "xpath:position"],
+        ["xpath=//button[contains(.,'More Text')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "49799fd1-81d9-4f3f-94dc-e04740163e8c",
+      "comment": "",
+      "command": "click",
+      "target": "xpath=//div[@id='root']/div[2]/div/div[2]/div/div/div/textarea",
+      "targets": [
+        ["css=.focus-visible", "css:finder"],
+        ["xpath=//div[@id='root']/div[2]/div/div[2]/div/div/div/textarea", "xpath:idRelative"],
+        ["xpath=//textarea", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "ddded437-7c82-4f5d-9dd5-c058f3af4bb1",
+      "comment": "",
+      "command": "type",
+      "target": "css=.focus-visible",
+      "targets": [
+        ["css=.focus-visible", "css:finder"],
+        ["xpath=//div[@id='root']/div[2]/div/div[2]/div/div/div/textarea", "xpath:idRelative"],
+        ["xpath=//textarea", "xpath:position"]
+      ],
+      "value": "Announcement"
+    }, {
+      "id": "b868d28d-d064-48a5-896b-98dc7e341a5b",
+      "comment": "",
+      "command": "click",
+      "target": "css=.fr-element",
+      "targets": [
+        ["css=.fr-element", "css:finder"],
+        ["xpath=//div[@id='root']/div[2]/div/div[2]/div/div[2]/div/div/div[3]/div", "xpath:idRelative"],
+        ["xpath=//div[3]/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "0a029fcb-0619-45b2-8376-c19b0b10422c",
+      "comment": "",
+      "command": "editContent",
+      "target": "css=.fr-element",
+      "targets": [
+        ["css=.fr-element", "css:finder"],
+        ["xpath=//div[@id='root']/div[2]/div/div[2]/div/div[2]/div/div/div[3]/div", "xpath:idRelative"],
+        ["xpath=//div[3]/div", "xpath:position"]
+      ],
+      "value": "<p>Testing Blast Message</p>"
+    }, {
+      "id": "7358ffda-ae08-4ccb-be88-bbc7c967076f",
+      "comment": "",
+      "command": "click",
+      "target": "css=.btn-success > .Button_container__1WNuB",
+      "targets": [
+        ["css=.btn-success > .Button_container__1WNuB", "css:finder"],
+        ["xpath=//div[@id='root']/div[2]/div/div[2]/div/div[5]/div/button/div", "xpath:idRelative"],
+        ["xpath=//button/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "232dc84a-dc9f-43b5-9365-1101736d0b88",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,0)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "36e3ccf8-0081-4594-90e9-9f3b1f246b3a",
+      "comment": "",
+      "command": "close",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }]
+  }, {
+    "id": "e877aa7b-fec0-4e8a-ad3e-9e10944af83b",
+    "name": "TC03.3 Blast the message with link website",
+    "commands": [{
+      "id": "1866a924-0567-4033-b5dc-fd4e1f9f284f",
+      "comment": "",
+      "command": "open",
+      "target": "https://staging.cicle.app/teams/61113436ca295354773160da",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "061b5389-f047-43fb-b003-2000e5a9976a",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "697x768",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "e7c4a5a3-8d9c-482d-9553-c91b5b1d1446",
+      "comment": "",
+      "command": "click",
+      "target": "css=.TeamPage_colBox__1rz7F:nth-child(2) .card-title",
+      "targets": [
+        ["css=.TeamPage_colBox__1rz7F:nth-child(2) .card-title", "css:finder"],
+        ["xpath=//div[@id='root']/div[2]/div/div[2]/div/div[3]/div[2]/a/div/div/div", "xpath:idRelative"],
+        ["xpath=//div[2]/a/div/div/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "b307dd66-a5e6-4562-959b-0a008e753684",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,0)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "859ab2eb-b574-43be-ad0e-b0129211e242",
+      "comment": "",
+      "command": "click",
+      "target": "css=.btn",
+      "targets": [
+        ["css=.btn", "css:finder"],
+        ["xpath=//button[@type='button']", "xpath:attributes"],
+        ["xpath=//div[@id='root']/div[2]/div/div[2]/div/div/div[2]/button", "xpath:idRelative"],
+        ["xpath=//button", "xpath:position"],
+        ["xpath=//button[contains(.,'+ Create Blast!')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "2b0798ff-d46f-4d58-bcb9-f1034bc86129",
+      "comment": "",
+      "command": "click",
+      "target": "css=.focus-visible",
+      "targets": [
+        ["css=.focus-visible", "css:finder"],
+        ["xpath=//div[@id='root']/div[2]/div/div[2]/div/div/div/textarea", "xpath:idRelative"],
+        ["xpath=//textarea", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "53e9ebc6-4e62-48cd-aa5d-29e8963c9641",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "id=backgroundColor-1",
+      "targets": [
+        ["id=backgroundColor-1", "id"],
+        ["css=#backgroundColor-1", "css:finder"],
+        ["xpath=//button[@id='backgroundColor-1']", "xpath:attributes"],
+        ["xpath=//div[@id='root']/div[2]/div/div[2]/div/div[2]/div/div/div/div/button[4]", "xpath:idRelative"],
+        ["xpath=//button[4]", "xpath:position"],
+        ["xpath=//button[contains(.,'Background Color')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "7c41f877-2d0a-4cd5-96f7-4a2cabe86c45",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "id=backgroundColor-1",
+      "targets": [
+        ["id=backgroundColor-1", "id"],
+        ["css=#backgroundColor-1", "css:finder"],
+        ["xpath=//button[@id='backgroundColor-1']", "xpath:attributes"],
+        ["xpath=//div[@id='root']/div[2]/div/div[2]/div/div[2]/div/div/div/div/button[4]", "xpath:idRelative"],
+        ["xpath=//button[4]", "xpath:position"],
+        ["xpath=//button[contains(.,'Background Color')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "62a22972-2c91-49ad-a3c7-13575b4c191e",
+      "comment": "",
+      "command": "click",
+      "target": "css=.Paper_Paper__27gPv",
+      "targets": [
+        ["css=.Paper_Paper__27gPv", "css:finder"],
+        ["xpath=//div[@id='root']/div[2]/div/div[2]/div", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div[2]/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "d543e4fc-6230-4668-837b-fddc85721e9c",
+      "comment": "",
+      "command": "type",
+      "target": "xpath=//div[@id='root']/div[2]/div/div[2]/div/div/div/textarea",
+      "targets": [
+        ["css=.focus-visible", "css:finder"],
+        ["xpath=//div[@id='root']/div[2]/div/div[2]/div/div/div/textarea", "xpath:idRelative"],
+        ["xpath=//textarea", "xpath:position"]
+      ],
+      "value": "Link Website"
+    }, {
+      "id": "473c5395-2b5d-4cc6-8779-3810a9ac89b9",
+      "comment": "",
+      "command": "click",
+      "target": "css=p",
+      "targets": [
+        ["css=p", "css:finder"],
+        ["xpath=//div[@id='root']/div[2]/div/div[2]/div/div[2]/div/div/div[3]/div/p", "xpath:idRelative"],
+        ["xpath=//p", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "dad43a56-05ec-44f3-9e07-a565d3f07e06",
+      "comment": "",
+      "command": "editContent",
+      "target": "css=.fr-element",
+      "targets": [
+        ["css=.fr-element", "css:finder"],
+        ["xpath=//div[@id='root']/div[2]/div/div[2]/div/div[2]/div/div/div[3]/div", "xpath:idRelative"],
+        ["xpath=//div[3]/div", "xpath:position"]
+      ],
+      "value": "<p>Check this link&nbsp;<span class=\"fr-marker\" data-id=\"0\" data-type=\"false\" style=\"display: none; line-height: 0;\">​</span><span class=\"fr-marker\" data-id=\"0\" data-type=\"true\" style=\"display: none; line-height: 0;\">​</span></p>"
+    }, {
+      "id": "4e87d253-937b-4893-90ed-6d867edd94f6",
+      "comment": "",
+      "command": "click",
+      "target": "css=#insertLink-1 > .fr-svg",
+      "targets": [
+        ["css=#insertLink-1 > .fr-svg", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "ddc43497-6499-4fce-b803-ec3d56f07477",
+      "comment": "",
+      "command": "click",
+      "target": "id=fr-link-insert-layer-url-1",
+      "targets": [
+        ["id=fr-link-insert-layer-url-1", "id"],
+        ["name=href", "name"],
+        ["css=#fr-link-insert-layer-url-1", "css:finder"],
+        ["xpath=//input[@id='fr-link-insert-layer-url-1']", "xpath:attributes"],
+        ["xpath=//div[@id='fr-link-insert-layer-1']/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "5cf515a3-551b-4875-9aa6-9ebe38375d32",
+      "comment": "",
+      "command": "type",
+      "target": "id=fr-link-insert-layer-url-1",
+      "targets": [
+        ["id=fr-link-insert-layer-url-1", "id"],
+        ["name=href", "name"],
+        ["css=#fr-link-insert-layer-url-1", "css:finder"],
+        ["xpath=//input[@id='fr-link-insert-layer-url-1']", "xpath:attributes"],
+        ["xpath=//div[@id='fr-link-insert-layer-1']/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "https://www.youtube.com/watch?v=SoW2pBak1_Q&t=2082s"
+    }, {
+      "id": "3c12f37f-e95a-450b-9e7b-fa0f369f0d5f",
+      "comment": "",
+      "command": "click",
+      "target": "id=fr-link-insert-layer-text-1",
+      "targets": [
+        ["id=fr-link-insert-layer-text-1", "id"],
+        ["name=text", "name"],
+        ["css=#fr-link-insert-layer-text-1", "css:finder"],
+        ["xpath=//input[@id='fr-link-insert-layer-text-1']", "xpath:attributes"],
+        ["xpath=//div[@id='fr-link-insert-layer-1']/div[2]/input", "xpath:idRelative"],
+        ["xpath=//div[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "8a66b058-7192-47e0-9e52-510af6bc6b6a",
+      "comment": "",
+      "command": "type",
+      "target": "id=fr-link-insert-layer-text-1",
+      "targets": [
+        ["id=fr-link-insert-layer-text-1", "id"],
+        ["name=text", "name"],
+        ["css=#fr-link-insert-layer-text-1", "css:finder"],
+        ["xpath=//input[@id='fr-link-insert-layer-text-1']", "xpath:attributes"],
+        ["xpath=//div[@id='fr-link-insert-layer-1']/div[2]/input", "xpath:idRelative"],
+        ["xpath=//div[2]/input", "xpath:position"]
+      ],
+      "value": "JMeter Guidence"
+    }, {
+      "id": "aa33ee23-eeb5-47bb-8c13-9aaca34ecd7c",
+      "comment": "",
+      "command": "click",
+      "target": "css=.fr-submit",
+      "targets": [
+        ["css=.fr-submit", "css:finder"],
+        ["xpath=(//button[@type='button'])[38]", "xpath:attributes"],
+        ["xpath=//div[@id='fr-link-insert-layer-1']/div[3]/button", "xpath:idRelative"],
+        ["xpath=//div[2]/div[3]/button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "38bc0e50-08e8-46fc-b60e-ac6b2c98a6b9",
+      "comment": "",
+      "command": "click",
+      "target": "css=p",
+      "targets": [
+        ["css=p", "css:finder"],
+        ["xpath=//div[@id='root']/div[2]/div/div[2]/div/div[2]/div/div/div[3]/div/p", "xpath:idRelative"],
+        ["xpath=//p", "xpath:position"],
+        ["xpath=//p[contains(.,'Check this link ​JMeter Guidence​​​')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "66d88fc6-9780-4f08-ac76-6ddad5a51ade",
+      "comment": "",
+      "command": "editContent",
+      "target": "xpath=//div[@id='root']/div[2]/div/div[2]/div/div[2]/div/div/div[3]/div",
+      "targets": [
+        ["css=.fr-element", "css:finder"],
+        ["xpath=//div[@id='root']/div[2]/div/div[2]/div/div[2]/div/div/div[3]/div", "xpath:idRelative"],
+        ["xpath=//div[3]/div", "xpath:position"]
+      ],
+      "value": "<p>Check this link <a href=\"https://www.youtube.com/watch?v=SoW2pBak1_Q&amp;t=2082s\">JMeter Guidence</a>"
+    }, {
+      "id": "e8cd5921-245b-40bb-9570-5bc9b748df73",
+      "comment": "",
+      "command": "click",
+      "target": "css=.btn-success > .Button_container__1WNuB",
+      "targets": [
+        ["css=.btn-success > .Button_container__1WNuB", "css:finder"],
+        ["xpath=//div[@id='root']/div[2]/div/div[2]/div/div[5]/div/button/div", "xpath:idRelative"],
+        ["xpath=//button/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "b737acb2-41b9-436d-925b-a8cb83564a8f",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,0)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "8f37bc11-2998-49fe-a1ba-76bca6f42f42",
+      "comment": "",
+      "command": "close",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }]
+  }, {
+    "id": "dc19c5bd-fae8-4725-bff9-d54ee6fa3c41",
+    "name": "TC03.2 Blast the message without title",
+    "commands": [{
+      "id": "5e293981-5128-4dca-b029-b04540b46f02",
+      "comment": "",
+      "command": "open",
+      "target": "https://staging.cicle.app/teams/61113436ca295354773160da",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "cfcd72e8-06e9-40a1-96ab-9c045af46798",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "974x768",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "7ba9f5e5-ab0d-4f2e-9ab4-bebd45cbe7f8",
+      "comment": "",
+      "command": "click",
+      "target": "css=.TeamPage_colBox__1rz7F:nth-child(2) .card-title",
+      "targets": [
+        ["css=.TeamPage_colBox__1rz7F:nth-child(2) .card-title", "css:finder"],
+        ["xpath=//div[@id='root']/div[2]/div/div[2]/div/div[3]/div[2]/a/div/div/div", "xpath:idRelative"],
+        ["xpath=//div[2]/a/div/div/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "4b6d05b8-1894-49d1-ba2c-6175537cb830",
+      "comment": "",
+      "command": "click",
+      "target": "css=.btn",
+      "targets": [
+        ["css=.btn", "css:finder"],
+        ["xpath=//button[@type='button']", "xpath:attributes"],
+        ["xpath=//div[@id='root']/div[2]/div/div[2]/div/div/div[2]/button", "xpath:idRelative"],
+        ["xpath=//button", "xpath:position"],
+        ["xpath=//button[contains(.,'+ Create Blast!')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "97faa2a4-ed54-4b07-b889-ab4b4c278623",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "id=moreText-1",
+      "targets": [
+        ["id=moreText-1", "id"],
+        ["css=#moreText-1", "css:finder"],
+        ["xpath=//button[@id='moreText-1']", "xpath:attributes"],
+        ["xpath=//div[@id='root']/div[2]/div/div[2]/div/div[2]/div/div/div/div/button[6]", "xpath:idRelative"],
+        ["xpath=//button[6]", "xpath:position"],
+        ["xpath=//button[contains(.,'More Text')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "26193362-e70b-4fce-acbb-52b1ac559857",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "id=moreText-1",
+      "targets": [
+        ["id=moreText-1", "id"],
+        ["css=#moreText-1", "css:finder"],
+        ["xpath=//button[@id='moreText-1']", "xpath:attributes"],
+        ["xpath=//div[@id='root']/div[2]/div/div[2]/div/div[2]/div/div/div/div/button[6]", "xpath:idRelative"],
+        ["xpath=//button[6]", "xpath:position"],
+        ["xpath=//button[contains(.,'More Text')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "5b6928f5-3212-45f6-8f6c-4d69d4c6194c",
+      "comment": "",
+      "command": "click",
+      "target": "xpath=//div[@id='root']/div[2]/div/div[2]/div/div/div/textarea",
+      "targets": [
+        ["css=.focus-visible", "css:finder"],
+        ["xpath=//div[@id='root']/div[2]/div/div[2]/div/div/div/textarea", "xpath:idRelative"],
+        ["xpath=//textarea", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "0d555060-8a62-4d8c-8d0a-cadcc9f96664",
+      "comment": "",
+      "command": "type",
+      "target": "css=.focus-visible",
+      "targets": [
+        ["css=.focus-visible", "css:finder"],
+        ["xpath=//div[@id='root']/div[2]/div/div[2]/div/div/div/textarea", "xpath:idRelative"],
+        ["xpath=//textarea", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "d6caba1c-dcf4-4f96-8cf3-2d1250776a55",
+      "comment": "",
+      "command": "click",
+      "target": "css=.fr-element",
+      "targets": [
+        ["css=.fr-element", "css:finder"],
+        ["xpath=//div[@id='root']/div[2]/div/div[2]/div/div[2]/div/div/div[3]/div", "xpath:idRelative"],
+        ["xpath=//div[3]/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "49a78963-82ea-4794-ba8e-3d8345c073f8",
+      "comment": "",
+      "command": "editContent",
+      "target": "css=.fr-element",
+      "targets": [
+        ["css=.fr-element", "css:finder"],
+        ["xpath=//div[@id='root']/div[2]/div/div[2]/div/div[2]/div/div/div[3]/div", "xpath:idRelative"],
+        ["xpath=//div[3]/div", "xpath:position"]
+      ],
+      "value": "<p>Testing Blast Message</p>"
+    }, {
+      "id": "20e02741-3437-48fb-bebb-bc897dfef146",
+      "comment": "",
+      "command": "click",
+      "target": "css=.btn-success > .Button_container__1WNuB",
+      "targets": [
+        ["css=.btn-success > .Button_container__1WNuB", "css:finder"],
+        ["xpath=//div[@id='root']/div[2]/div/div[2]/div/div[5]/div/button/div", "xpath:idRelative"],
+        ["xpath=//button/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "c3c37e91-7553-4dc5-b57f-d53aec55dbd0",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,0)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "d627018b-58ae-45cc-8cab-a99f07586b47",
+      "comment": "",
+      "command": "close",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "c19daee8-086e-4733-b732-4ee4ca356d86",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["b35cc3e4-66b5-4112-bcf8-2eac75671f2c"]
+  }],
+  "urls": ["https://staging.cicle.app/teams/61113436ca295354773160da"],
+  "plugins": []
+}

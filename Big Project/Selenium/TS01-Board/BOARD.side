@@ -1,0 +1,1546 @@
+{
+  "id": "196713ff-c43f-4237-aace-e1bc932ce1fc",
+  "version": "2.0",
+  "name": "BOARD",
+  "url": "https://staging.cicle.app/teams/61113436ca295354773160da",
+  "tests": [{
+    "id": "178e9173-0855-41d0-abd0-55735b1b2cfd",
+    "name": "TC01.1 Create Board Development",
+    "commands": [{
+      "id": "80af2a7b-3889-49ba-a518-adc462e0bee7",
+      "comment": "",
+      "command": "open",
+      "target": "https://staging.cicle.app/teams/61113436ca295354773160da",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "4470680c-4680-43da-bac8-6a592ac5db1c",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1936x1096",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "570a9edb-dc42-44e5-bda5-47ca513882f4",
+      "comment": "",
+      "command": "click",
+      "target": "css=.TeamPage_colBox__1rz7F:nth-child(4) .card-title",
+      "targets": [
+        ["css=.TeamPage_colBox__1rz7F:nth-child(4) .card-title", "css:finder"],
+        ["xpath=//div[@id='root']/div[2]/div/div[2]/div/div[3]/div[4]/a/div/div/div", "xpath:idRelative"],
+        ["xpath=//div[4]/a/div/div/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "32741883-e895-4301-b25d-9e42d997dba7",
+      "comment": "",
+      "command": "click",
+      "target": "css=.CreateListButton_buttonBottom__16OpZ > .MuiSvgIcon-root",
+      "targets": [
+        ["css=.CreateListButton_buttonBottom__16OpZ > .MuiSvgIcon-root", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "8073ec11-e8d0-48ba-92d8-55781f1ef839",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.CreateListButton_buttonBottom__16OpZ > .MuiSvgIcon-root",
+      "targets": [
+        ["css=.CreateListButton_buttonBottom__16OpZ > .MuiSvgIcon-root", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "853ad1ec-080b-4814-8429-4568311f1416",
+      "comment": "",
+      "command": "type",
+      "target": "name=name",
+      "targets": [
+        ["name=name", "name"],
+        ["css=.form-control", "css:finder"],
+        ["xpath=//input[@name='name']", "xpath:attributes"],
+        ["xpath=//div[@id='root']/div[2]/div/div/div/div/div[2]/div/div[5]/div/div/form/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "Testing"
+    }, {
+      "id": "0037eb5a-1396-4df8-846a-efca04d5b5e8",
+      "comment": "",
+      "command": "click",
+      "target": "css=.Button_container__1WNuB",
+      "targets": [
+        ["css=.Button_container__1WNuB", "css:finder"],
+        ["xpath=//div[@id='root']/div[2]/div/div/div/div/div[2]/div/div[5]/div/div/form/div[2]/div/button/div", "xpath:idRelative"],
+        ["xpath=//button/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "e60559ac-74e4-4a5a-aa77-beb480f80415",
+      "comment": "",
+      "command": "close",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }]
+  }, {
+    "id": "470a88ca-a799-464c-bb58-91cf7ddf73fe",
+    "name": "TC01.2 Create Board \"Testing\"",
+    "commands": [{
+      "id": "a33257d8-7348-46b9-ab1f-e630fc2d4edf",
+      "comment": "",
+      "command": "open",
+      "target": "https://staging.cicle.app/teams/61113436ca295354773160da",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "9d858b11-d679-403c-9c07-31a868baaaa3",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1936x1096",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "2d7324f5-bd25-420d-ad4c-57efa6c4944a",
+      "comment": "",
+      "command": "click",
+      "target": "css=.TeamPage_colBox__1rz7F:nth-child(4) .card-title",
+      "targets": [
+        ["css=.TeamPage_colBox__1rz7F:nth-child(4) .card-title", "css:finder"],
+        ["xpath=//div[@id='root']/div[2]/div/div[2]/div/div[3]/div[4]/a/div/div/div", "xpath:idRelative"],
+        ["xpath=//div[4]/a/div/div/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "059f1eb0-37aa-4123-8ffe-2607f28bb141",
+      "comment": "",
+      "command": "click",
+      "target": "css=.CreateListButton_buttonBottom__16OpZ > .MuiSvgIcon-root",
+      "targets": [
+        ["css=.CreateListButton_buttonBottom__16OpZ > .MuiSvgIcon-root", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "24c70145-81f1-42c3-8077-87afe25044ee",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.CreateListButton_buttonBottom__16OpZ > .MuiSvgIcon-root",
+      "targets": [
+        ["css=.CreateListButton_buttonBottom__16OpZ > .MuiSvgIcon-root", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "f1834239-056d-4882-b1a1-01f2684b2f8e",
+      "comment": "",
+      "command": "type",
+      "target": "name=name",
+      "targets": [
+        ["name=name", "name"],
+        ["css=.form-control", "css:finder"],
+        ["xpath=//input[@name='name']", "xpath:attributes"],
+        ["xpath=//div[@id='root']/div[2]/div/div/div/div/div[2]/div/div[5]/div/div/form/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "Development"
+    }, {
+      "id": "1458c3ba-b66d-4228-8724-7d5947cc7c63",
+      "comment": "",
+      "command": "click",
+      "target": "css=.Button_container__1WNuB",
+      "targets": [
+        ["css=.Button_container__1WNuB", "css:finder"],
+        ["xpath=//div[@id='root']/div[2]/div/div/div/div/div[2]/div/div[5]/div/div/form/div[2]/div/button/div", "xpath:idRelative"],
+        ["xpath=//button/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "36bbd262-2b8c-40b1-8751-2b98b24d2395",
+      "comment": "",
+      "command": "close",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }]
+  }, {
+    "id": "a1d336a8-bf94-45a5-8a59-ae85d21ead2e",
+    "name": "TC01.3 Create Board \"Done/Complete\"",
+    "commands": [{
+      "id": "eb40e526-be1c-40c8-8e5b-606ac9ad5972",
+      "comment": "",
+      "command": "open",
+      "target": "https://staging.cicle.app/teams/61113436ca295354773160da",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "e6d58db4-19ca-44eb-8bc4-2b6a9dbe31e3",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1936x1096",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "435f0ee9-bb8d-4105-b464-2f65fe481291",
+      "comment": "",
+      "command": "click",
+      "target": "css=.TeamPage_colBox__1rz7F:nth-child(4) .card-title",
+      "targets": [
+        ["css=.TeamPage_colBox__1rz7F:nth-child(4) .card-title", "css:finder"],
+        ["xpath=//div[@id='root']/div[2]/div/div[2]/div/div[3]/div[4]/a/div/div/div", "xpath:idRelative"],
+        ["xpath=//div[4]/a/div/div/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "30e3f3f9-3c8c-4d08-8900-801c2391490a",
+      "comment": "",
+      "command": "click",
+      "target": "css=.CreateListButton_buttonBottom__16OpZ > .MuiSvgIcon-root",
+      "targets": [
+        ["css=.CreateListButton_buttonBottom__16OpZ > .MuiSvgIcon-root", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "82298f5d-28af-4c20-bda8-af59627b248a",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.CreateListButton_buttonBottom__16OpZ > .MuiSvgIcon-root",
+      "targets": [
+        ["css=.CreateListButton_buttonBottom__16OpZ > .MuiSvgIcon-root", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "f60f58cf-3fd1-45db-824f-a49396251933",
+      "comment": "",
+      "command": "type",
+      "target": "name=name",
+      "targets": [
+        ["name=name", "name"],
+        ["css=.form-control", "css:finder"],
+        ["xpath=//input[@name='name']", "xpath:attributes"],
+        ["xpath=//div[@id='root']/div[2]/div/div/div/div/div[2]/div/div[5]/div/div/form/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "Done/Complete"
+    }, {
+      "id": "7dd261e5-f2cd-4b1d-b8aa-222d789c6325",
+      "comment": "",
+      "command": "click",
+      "target": "css=.Button_container__1WNuB",
+      "targets": [
+        ["css=.Button_container__1WNuB", "css:finder"],
+        ["xpath=//div[@id='root']/div[2]/div/div/div/div/div[2]/div/div[5]/div/div/form/div[2]/div/button/div", "xpath:idRelative"],
+        ["xpath=//button/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "d322dfb0-e3ce-4fe2-afec-0d16efcd759d",
+      "comment": "",
+      "command": "close",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }]
+  }, {
+    "id": "3d3473a8-fb3f-41da-ac3a-3d10a2924918",
+    "name": "TC01.4 Create with blank name",
+    "commands": [{
+      "id": "517cd7fb-bddc-485a-80b3-c96803f7ff03",
+      "comment": "",
+      "command": "open",
+      "target": "https://staging.cicle.app/teams/61113436ca295354773160da",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "6a8158d9-d40c-423f-b2b1-3dfe2cc35cc9",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1936x1096",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "bbaea104-6653-4b3f-b083-f176b53abf5f",
+      "comment": "",
+      "command": "click",
+      "target": "css=.TeamPage_colBox__1rz7F:nth-child(4) .card-title",
+      "targets": [
+        ["css=.TeamPage_colBox__1rz7F:nth-child(4) .card-title", "css:finder"],
+        ["xpath=//div[@id='root']/div[2]/div/div[2]/div/div[3]/div[4]/a/div/div/div", "xpath:idRelative"],
+        ["xpath=//div[4]/a/div/div/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "3a3b4310-47ab-4502-b097-b95fa2a20e51",
+      "comment": "",
+      "command": "click",
+      "target": "css=.CreateListButton_buttonBottom__16OpZ > .MuiSvgIcon-root",
+      "targets": [
+        ["css=.CreateListButton_buttonBottom__16OpZ > .MuiSvgIcon-root", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "772724c5-5920-4637-8acc-f44ec88ff5d4",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.CreateListButton_buttonBottom__16OpZ > .MuiSvgIcon-root",
+      "targets": [
+        ["css=.CreateListButton_buttonBottom__16OpZ > .MuiSvgIcon-root", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "82debaad-f8f3-46f4-98b5-18cd2e016c75",
+      "comment": "",
+      "command": "type",
+      "target": "name=name",
+      "targets": [
+        ["name=name", "name"],
+        ["css=.form-control", "css:finder"],
+        ["xpath=//input[@name='name']", "xpath:attributes"],
+        ["xpath=//div[@id='root']/div[2]/div/div/div/div/div[2]/div/div[5]/div/div/form/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "0b360644-d034-43f7-bdb9-ae9b24e8a353",
+      "comment": "",
+      "command": "click",
+      "target": "css=.Button_container__1WNuB",
+      "targets": [
+        ["css=.Button_container__1WNuB", "css:finder"],
+        ["xpath=//div[@id='root']/div[2]/div/div/div/div/div[2]/div/div[5]/div/div/form/div[2]/div/button/div", "xpath:idRelative"],
+        ["xpath=//button/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "c6754454-6c02-4a84-a03c-0a0a3e2b73a3",
+      "comment": "",
+      "command": "close",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }]
+  }, {
+    "id": "300d0027-8ab2-4390-aa75-9b7e188091fa",
+    "name": "TC01.6 Create Card at board",
+    "commands": [{
+      "id": "f69735ae-564d-4888-ad44-ca21a73899b8",
+      "comment": "",
+      "command": "open",
+      "target": "https://staging.cicle.app/teams/61113436ca295354773160da",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "28853a29-c6e5-438d-aa19-12ea16b6cc1a",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1936x1096",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "b3c60c1e-3082-4683-94d8-a342f01f0c74",
+      "comment": "",
+      "command": "click",
+      "target": "css=.TeamPage_colBox__1rz7F:nth-child(4) .card-title",
+      "targets": [
+        ["css=.TeamPage_colBox__1rz7F:nth-child(4) .card-title", "css:finder"],
+        ["xpath=//div[@id='root']/div[2]/div/div[2]/div/div[3]/div[4]/a/div/div/div", "xpath:idRelative"],
+        ["xpath=//div[4]/a/div/div/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "0e37dedf-1175-4616-9110-70f8ff1c1cc1",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Add Card",
+      "targets": [
+        ["linkText=Add Card", "linkText"],
+        ["css=.List_List__30q9z:nth-child(1) .ListContainer_ListContainer__buttonBottom__2kZAI > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Add Card')]", "xpath:link"],
+        ["xpath=//div[@id='root']/div[2]/div/div/div/div/div[2]/div/div/div/div/div[4]/a", "xpath:idRelative"],
+        ["xpath=//div[4]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Add Card')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "cb095301-6365-4655-a047-612676fd049a",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.btn-success > .Button_container__1WNuB",
+      "targets": [
+        ["css=.btn-success > .Button_container__1WNuB", "css:finder"],
+        ["xpath=//div[@id='root']/div[2]/div/div/div/div/div[2]/div/div/div/div/div[4]/div[3]/button/div", "xpath:idRelative"],
+        ["xpath=//button/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "4cdeb22d-6559-4c41-aa40-c3ecea172233",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=.btn-success > .Button_container__1WNuB",
+      "targets": [
+        ["css=.btn-success > .Button_container__1WNuB", "css:finder"],
+        ["xpath=//div[@id='root']/div[2]/div/div/div/div/div[2]/div/div/div/div/div[4]/div[3]/button/div", "xpath:idRelative"],
+        ["xpath=//button/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "cb0f2541-e0de-4d5a-8d48-8bb8de3a3615",
+      "comment": "",
+      "command": "type",
+      "target": "css=.form-control",
+      "targets": [
+        ["css=.form-control", "css:finder"],
+        ["xpath=//div[@id='root']/div[2]/div/div/div/div/div[2]/div/div/div/div/div[4]/div/form/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "Sign Up with valid requirement"
+    }, {
+      "id": "cd585cb7-0ad3-4cb2-8e59-61f8f9d9a1f1",
+      "comment": "",
+      "command": "click",
+      "target": "css=.btn-success > .Button_container__1WNuB",
+      "targets": [
+        ["css=.btn-success > .Button_container__1WNuB", "css:finder"],
+        ["xpath=//div[@id='root']/div[2]/div/div/div/div/div[2]/div/div/div/div/div[4]/div[3]/button/div", "xpath:idRelative"],
+        ["xpath=//button/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "05c3c203-4aa7-48b6-9908-0f1143b196f0",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,0)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "b10c56b8-9dc4-4263-9d62-3b4703880186",
+      "comment": "",
+      "command": "close",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }]
+  }, {
+    "id": "39eede9c-a52c-4a26-8d01-6f5cd5a449ed",
+    "name": "TC01.5 Create invalid Card at board ",
+    "commands": [{
+      "id": "9cc02ee2-d905-46ec-815c-cceb20e1c842",
+      "comment": "",
+      "command": "open",
+      "target": "https://staging.cicle.app/teams/61113436ca295354773160da",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "b0bf472b-9e7b-419a-80ac-aae7191f02f8",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1936x1096",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "3f0c336e-400e-4cfc-bd78-b3d50e3e2f02",
+      "comment": "",
+      "command": "click",
+      "target": "css=.TeamPage_colBox__1rz7F:nth-child(4) .card-title",
+      "targets": [
+        ["css=.TeamPage_colBox__1rz7F:nth-child(4) .card-title", "css:finder"],
+        ["xpath=//div[@id='root']/div[2]/div/div[2]/div/div[3]/div[4]/a/div/div/div", "xpath:idRelative"],
+        ["xpath=//div[4]/a/div/div/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "bd7ba8b4-64f2-42df-a3ba-4383dc180a37",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Add Card",
+      "targets": [
+        ["linkText=Add Card", "linkText"],
+        ["css=.List_List__30q9z:nth-child(1) .ListContainer_ListContainer__buttonBottom__2kZAI > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Add Card')]", "xpath:link"],
+        ["xpath=//div[@id='root']/div[2]/div/div/div/div/div[2]/div/div/div/div/div[4]/a", "xpath:idRelative"],
+        ["xpath=//div[4]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Add Card')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "08eeaf0b-e094-40f6-ba04-d6cf8ec2c92b",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.btn-success > .Button_container__1WNuB",
+      "targets": [
+        ["css=.btn-success > .Button_container__1WNuB", "css:finder"],
+        ["xpath=//div[@id='root']/div[2]/div/div/div/div/div[2]/div/div/div/div/div[4]/div[3]/button/div", "xpath:idRelative"],
+        ["xpath=//button/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "843a3ae4-6bef-4077-8925-30e199b9d44e",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=.btn-success > .Button_container__1WNuB",
+      "targets": [
+        ["css=.btn-success > .Button_container__1WNuB", "css:finder"],
+        ["xpath=//div[@id='root']/div[2]/div/div/div/div/div[2]/div/div/div/div/div[4]/div[3]/button/div", "xpath:idRelative"],
+        ["xpath=//button/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "2d59f098-d26c-416d-ba31-06df4d791ba9",
+      "comment": "",
+      "command": "click",
+      "target": "css=.btn-success > .Button_container__1WNuB",
+      "targets": [
+        ["css=.btn-success > .Button_container__1WNuB", "css:finder"],
+        ["xpath=//div[@id='root']/div[2]/div/div/div/div/div[2]/div/div/div/div/div[4]/div[3]/button/div", "xpath:idRelative"],
+        ["xpath=//button/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "2147f582-ddb4-4163-aeae-7f5753fc01af",
+      "comment": "",
+      "command": "close",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }]
+  }, {
+    "id": "3e7a9b98-9ee0-4d64-8fe1-2f3e2f496118",
+    "name": "TC01.7 Move the card to Testing board",
+    "commands": [{
+      "id": "38f84215-132f-4807-acee-3ddd389e4346",
+      "comment": "",
+      "command": "open",
+      "target": "https://staging.cicle.app/teams/61113436ca295354773160da",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "f791c250-5492-4aaf-af64-3bcbfff3fecb",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1936x1096",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "76cd1ce6-fdae-43e4-b769-7274f20a0cad",
+      "comment": "",
+      "command": "click",
+      "target": "css=.TeamPage_colBox__1rz7F:nth-child(4) .card-title",
+      "targets": [
+        ["css=.TeamPage_colBox__1rz7F:nth-child(4) .card-title", "css:finder"],
+        ["xpath=//div[@id='root']/div[2]/div/div[2]/div/div[3]/div[4]/a/div/div/div", "xpath:idRelative"],
+        ["xpath=//div[4]/a/div/div/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "3af9fc21-94f6-4ff9-b6b0-36da8c95b147",
+      "comment": "",
+      "command": "click",
+      "target": "css=.OverlayButton_container__3kxDV:nth-child(1) > .OverlayButton_box__2jFLd > .SmallCard_SmallCard__xuek9 > .ModalLinkNoDecor_ModalLink__1zSCj",
+      "targets": [
+        ["css=.OverlayButton_container__3kxDV:nth-child(1) > .OverlayButton_box__2jFLd > .SmallCard_SmallCard__xuek9 > .ModalLinkNoDecor_ModalLink__1zSCj", "css:finder"],
+        ["xpath=//div[@id='listcard_content-0']/div/div/div/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/cards/6120cd41b94eac18e6df8854')]", "xpath:href"],
+        ["xpath=//div/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "25513e27-a53e-47f9-86e3-1f63bdbb2401",
+      "comment": "",
+      "command": "click",
+      "target": "css=.CardDetailContainer_CardDetailContainer__smallSectionContainer__3qfM5:nth-child(2) > .CardDetailContainer_buttonAction__2Sfwo > .btn > .Button_container__1WNuB",
+      "targets": [
+        ["css=.CardDetailContainer_CardDetailContainer__smallSectionContainer__3qfM5:nth-child(2) > .CardDetailContainer_buttonAction__2Sfwo > .btn > .Button_container__1WNuB", "css:finder"],
+        ["xpath=//div[2]/div/button/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "49bf6c74-7558-47ca-aa84-00d4612554e0",
+      "comment": "",
+      "command": "click",
+      "target": "css=.ManageMoveCard_listSection__listName__TN7R2 > p",
+      "targets": [
+        ["css=.ManageMoveCard_listSection__listName__TN7R2 > p", "css:finder"],
+        ["xpath=//div[2]/div/div/div[3]/div/div/p", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "2943117f-6bc3-4e91-9981-fcec28562cb8",
+      "comment": "",
+      "command": "click",
+      "target": "css=.ListNameOption_listSection__2cM1h:nth-child(2)",
+      "targets": [
+        ["css=.ListNameOption_listSection__2cM1h:nth-child(2)", "css:finder"],
+        ["xpath=//div[3]/div/div[2]/div[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "19636e68-b431-4bb5-b827-049b09e08774",
+      "comment": "",
+      "command": "click",
+      "target": "css=.btn-success > .Button_container__1WNuB",
+      "targets": [
+        ["css=.btn-success > .Button_container__1WNuB", "css:finder"],
+        ["xpath=//div[4]/button/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "e1ae1b51-9d69-4eba-9962-107305e8dad7",
+      "comment": "",
+      "command": "click",
+      "target": "css=.modal",
+      "targets": [
+        ["css=.modal", "css:finder"],
+        ["xpath=//body/div[5]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "b08457b7-6133-43fa-b4b8-4a3d5270a665",
+      "comment": "",
+      "command": "close",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }]
+  }, {
+    "id": "5af14930-d790-4b47-9348-74edf146360a",
+    "name": "TC01.8 Move the card to Done/Complete board",
+    "commands": [{
+      "id": "ed91072f-4de0-4af8-a25b-876c86dce71d",
+      "comment": "",
+      "command": "open",
+      "target": "https://staging.cicle.app/teams/61113436ca295354773160da",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "815d23e4-ad27-4a76-87b3-97a26a720e30",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1936x1096",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "34821f29-9fbb-43b0-9629-700180cb6d26",
+      "comment": "",
+      "command": "click",
+      "target": "css=.TeamPage_colBox__1rz7F:nth-child(4) .card-title",
+      "targets": [
+        ["css=.TeamPage_colBox__1rz7F:nth-child(4) .card-title", "css:finder"],
+        ["xpath=//div[@id='root']/div[2]/div/div[2]/div/div[3]/div[4]/a/div/div/div", "xpath:idRelative"],
+        ["xpath=//div[4]/a/div/div/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "1d2e5766-86a4-4c83-b1d3-a8f8529b39ee",
+      "comment": "",
+      "command": "click",
+      "target": "css=#listcard_content-1 .ModalLinkNoDecor_ModalLink__1zSCj",
+      "targets": [
+        ["css=#listcard_content-1 .ModalLinkNoDecor_ModalLink__1zSCj", "css:finder"],
+        ["xpath=//div[@id='listcard_content-1']/div/div/div/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/cards/6120cd41b94eac18e6df8854')]", "xpath:href"],
+        ["xpath=//div[2]/div/div/div[3]/div/div/div/div/div/div/div/div/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "065c3d80-a4b4-4c64-9873-c8233625bfa2",
+      "comment": "",
+      "command": "click",
+      "target": "css=.CardDetailContainer_CardDetailContainer__smallSectionContainer__3qfM5:nth-child(2) > .CardDetailContainer_buttonAction__2Sfwo > .btn .MuiSvgIcon-root",
+      "targets": [
+        ["css=.CardDetailContainer_CardDetailContainer__smallSectionContainer__3qfM5:nth-child(2) > .CardDetailContainer_buttonAction__2Sfwo > .btn .MuiSvgIcon-root", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "7a3fc27b-f35d-423b-981a-c40a35a32ad7",
+      "comment": "",
+      "command": "click",
+      "target": "css=.ManageMoveCard_listSection__listName__TN7R2 > p",
+      "targets": [
+        ["css=.ManageMoveCard_listSection__listName__TN7R2 > p", "css:finder"],
+        ["xpath=//div[2]/div/div/div[3]/div/div/p", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "2e623eab-d8c3-4b7e-a367-f10a9ea610fb",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Done/Complete",
+      "targets": [
+        ["linkText=Done/Complete", "linkText"],
+        ["css=.ListNameOption_listSection__2cM1h:nth-child(3) > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Done/Complete')]", "xpath:link"],
+        ["xpath=//div[3]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Done/Complete')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "7f6930d1-46db-448a-957a-00b93dd21967",
+      "comment": "",
+      "command": "click",
+      "target": "css=.btn-success > .Button_container__1WNuB",
+      "targets": [
+        ["css=.btn-success > .Button_container__1WNuB", "css:finder"],
+        ["xpath=//div[4]/button/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "5a550929-9057-4a8d-a3d0-3692bc6406de",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.btn-success > .Button_container__1WNuB",
+      "targets": [
+        ["css=.btn-success > .Button_container__1WNuB", "css:finder"],
+        ["xpath=//div[4]/button/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "1f656a0f-dc87-4d93-ae7b-0f5e453b424f",
+      "comment": "",
+      "command": "click",
+      "target": "css=.modal",
+      "targets": [
+        ["css=.modal", "css:finder"],
+        ["xpath=//body/div[5]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "decc5c0f-07d3-487b-8beb-d49b074c1141",
+      "comment": "",
+      "command": "close",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }]
+  }, {
+    "id": "1c1695c0-a632-4ae6-85cb-b94584c2ecd8",
+    "name": "TC01.9 Edit card at Notes and Add Comments (3a.i)",
+    "commands": [{
+      "id": "12e5bf03-0090-4998-9634-ea359bfee7dd",
+      "comment": "",
+      "command": "open",
+      "target": "https://staging.cicle.app/teams/61113436ca295354773160da",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "d7aa49ac-06d9-4d6d-80fa-97f02d9d8664",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1936x1096",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "6f0a6922-a8e4-4aa2-8196-a91c1c79170e",
+      "comment": "",
+      "command": "click",
+      "target": "css=.TeamPage_colBox__1rz7F:nth-child(4) .card-title",
+      "targets": [
+        ["css=.TeamPage_colBox__1rz7F:nth-child(4) .card-title", "css:finder"],
+        ["xpath=//div[@id='root']/div[2]/div/div[2]/div/div[3]/div[4]/a/div/div/div", "xpath:idRelative"],
+        ["xpath=//div[4]/a/div/div/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "db34e3aa-bfe3-4781-94c4-abab2d2b2b7e",
+      "comment": "",
+      "command": "click",
+      "target": "css=.ModalLinkNoDecor_ModalLink__1zSCj",
+      "targets": [
+        ["css=.ModalLinkNoDecor_ModalLink__1zSCj", "css:finder"],
+        ["xpath=//div[@id='listcard_content-0']/div/div/div/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/cards/6120cd41b94eac18e6df8854')]", "xpath:href"],
+        ["xpath=//div/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "36d07327-7cdc-41f8-b9ac-f42ee1065a60",
+      "comment": "",
+      "command": "click",
+      "target": "css=.CardDetailContainer_CardDetailContainer__smallSectionContainer__3qfM5:nth-child(2) > .CardDetailContainer_buttonAction__2Sfwo > .btn > .Button_container__1WNuB",
+      "targets": [
+        ["css=.CardDetailContainer_CardDetailContainer__smallSectionContainer__3qfM5:nth-child(2) > .CardDetailContainer_buttonAction__2Sfwo > .btn > .Button_container__1WNuB", "css:finder"],
+        ["xpath=//div[2]/div/button/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "2b619cb1-ef5e-44f4-ac0e-d1e01aa9d789",
+      "comment": "",
+      "command": "click",
+      "target": "css=.ManageMoveCard_listSection__listName__TN7R2 > p",
+      "targets": [
+        ["css=.ManageMoveCard_listSection__listName__TN7R2 > p", "css:finder"],
+        ["xpath=//div[2]/div/div/div[3]/div/div/p", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "113d7211-6c80-459b-9a3d-84f8c8f59b96",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Testing",
+      "targets": [
+        ["linkText=Testing", "linkText"],
+        ["css=.ListNameOption_listSection__2cM1h:nth-child(2) > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Testing')]", "xpath:link"],
+        ["xpath=//div[2]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Testing')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "7786cf7f-24a6-4813-a4da-cde9088d9b61",
+      "comment": "",
+      "command": "click",
+      "target": "css=.btn-success > .Button_container__1WNuB",
+      "targets": [
+        ["css=.btn-success > .Button_container__1WNuB", "css:finder"],
+        ["xpath=//div[4]/button/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "9e840505-cdcc-40e8-9344-db1a1e0c8382",
+      "comment": "",
+      "command": "click",
+      "target": "css=.ManageDesc_editIcon__1I0bY path",
+      "targets": [
+        ["css=.ManageDesc_editIcon__1I0bY path", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "b8fcfe61-3dd6-455e-a448-74580f428f1e",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "id=italic-1",
+      "targets": [
+        ["id=italic-1", "id"],
+        ["css=#italic-1", "css:finder"],
+        ["xpath=//button[@id='italic-1']", "xpath:attributes"],
+        ["xpath=//button[2]", "xpath:position"],
+        ["xpath=//button[contains(.,'Italic')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "6253ea9b-29ae-49af-b7c6-0f7e7892325e",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "id=italic-1",
+      "targets": [
+        ["id=italic-1", "id"],
+        ["css=#italic-1", "css:finder"],
+        ["xpath=//button[@id='italic-1']", "xpath:attributes"],
+        ["xpath=//button[2]", "xpath:position"],
+        ["xpath=//button[contains(.,'Italic')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "95548536-16f7-48b6-943b-33e86d162052",
+      "comment": "",
+      "command": "editContent",
+      "target": "css=.fr-element",
+      "targets": [
+        ["css=.fr-element", "css:finder"],
+        ["xpath=//div[4]/div[2]/div/div/div/div[2]/div", "xpath:position"]
+      ],
+      "value": "<p>Please kindly test this feature, thank you.</p><p>-DevOps</p>"
+    }, {
+      "id": "541d722a-4494-4e80-9c8e-210e3afd6a39",
+      "comment": "",
+      "command": "click",
+      "target": "css=.btn-success > .Button_container__1WNuB",
+      "targets": [
+        ["css=.btn-success > .Button_container__1WNuB", "css:finder"],
+        ["xpath=//div[2]/div/button/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "a3c1a392-420c-4360-a868-9eb4f0b6e6e2",
+      "comment": "",
+      "command": "click",
+      "target": "css=.CreateCommentForm_formInitial__3AVVg",
+      "targets": [
+        ["css=.CreateCommentForm_formInitial__3AVVg", "css:finder"],
+        ["xpath=//form/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "5678b094-5a97-4eb5-916f-826476d0fed3",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=#strikeThrough-2 > .fr-svg",
+      "targets": [
+        ["css=#strikeThrough-2 > .fr-svg", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "8062d471-c13b-41ea-b27d-31f7b234e943",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=#strikeThrough-2 > .fr-svg",
+      "targets": [
+        ["css=#strikeThrough-2 > .fr-svg", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "f0fc4aa8-bdd7-40b6-801e-1a6e8f7f6a33",
+      "comment": "",
+      "command": "editContent",
+      "target": "css=.fr-element",
+      "targets": [
+        ["css=.fr-element", "css:finder"],
+        ["xpath=//form/div/div/div[2]/div", "xpath:position"]
+      ],
+      "value": "<p>Sure, I will test this one immediately.</p><p>-QA</p>"
+    }, {
+      "id": "e7d8cc80-32d3-4629-a8f7-31e66ac8079d",
+      "comment": "",
+      "command": "click",
+      "target": "css=.btn-success > .Button_container__1WNuB",
+      "targets": [
+        ["css=.btn-success > .Button_container__1WNuB", "css:finder"],
+        ["xpath=//div[2]/div/button/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "97f11066-7c49-4bdc-9b5c-ccc1d1f9b6e3",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=#comment_6120d4f5b94eac2fd2df908e .CommentItem_discussSection__1_fte p",
+      "targets": [
+        ["css=#comment_6120d4f5b94eac2fd2df908e .CommentItem_discussSection__1_fte p", "css:finder"],
+        ["xpath=//div[@id='comment_6120d4f5b94eac2fd2df908e']/div[2]/div[3]/div/a/div/p", "xpath:idRelative"],
+        ["xpath=//a/div/p", "xpath:position"],
+        ["xpath=//p[contains(.,'Reply this comment')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "ce7af859-f709-4cfc-a2fd-3b33ea4bcf54",
+      "comment": "",
+      "command": "click",
+      "target": "css=.close > span:nth-child(1)",
+      "targets": [
+        ["css=.close > span:nth-child(1)", "css:finder"],
+        ["xpath=//button/span", "xpath:position"],
+        ["xpath=//span[contains(.,'×')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "8f4712e1-e36c-4132-a88f-4735f3382981",
+      "comment": "",
+      "command": "close",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }]
+  }, {
+    "id": "0b6f4a06-d41c-4072-83ec-d09fae74db8b",
+    "name": "TC01.10 Move some cards (3a.iii)",
+    "commands": [{
+      "id": "dc5355fd-e1a9-4ec6-8c7f-a64e12203f44",
+      "comment": "",
+      "command": "open",
+      "target": "https://staging.cicle.app/teams/61113436ca295354773160da",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "cbe5d476-3dd3-4f08-ad92-74ecce4139d6",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "974x1080",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "1dabe221-d98a-4f56-b050-2d5e34c15151",
+      "comment": "",
+      "command": "click",
+      "target": "css=.TeamPage_colBox__1rz7F:nth-child(4) .card-title",
+      "targets": [
+        ["css=.TeamPage_colBox__1rz7F:nth-child(4) .card-title", "css:finder"],
+        ["xpath=//div[@id='root']/div[2]/div/div[2]/div/div[3]/div[4]/a/div/div/div", "xpath:idRelative"],
+        ["xpath=//div[4]/a/div/div/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "cab211f6-2ee7-4bab-89cb-4bed1f447ef6",
+      "comment": "",
+      "command": "click",
+      "target": "css=.OverlayButton_container__3kxDV:nth-child(4) .ModalLinkNoDecor_ModalLink__1zSCj",
+      "targets": [
+        ["css=.OverlayButton_container__3kxDV:nth-child(4) .ModalLinkNoDecor_ModalLink__1zSCj", "css:finder"],
+        ["xpath=//div[@id='listcard_content-0']/div[4]/div/div/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/cards/6123235cb94eaca1dde07c9c')]", "xpath:href"],
+        ["xpath=//div[4]/div/div/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "07310523-78b8-455f-a7a9-516c123a9161",
+      "comment": "",
+      "command": "click",
+      "target": "css=.CardDetailContainer_CardDetailContainer__smallSectionContainer__3qfM5:nth-child(2) > .CardDetailContainer_buttonAction__2Sfwo > .btn > .Button_container__1WNuB",
+      "targets": [
+        ["css=.CardDetailContainer_CardDetailContainer__smallSectionContainer__3qfM5:nth-child(2) > .CardDetailContainer_buttonAction__2Sfwo > .btn > .Button_container__1WNuB", "css:finder"],
+        ["xpath=//div[2]/div/button/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "d39d2098-7c71-44fa-9336-f625b36819d1",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.CardDetailContainer_CardDetailContainer__smallSectionContainer__3qfM5:nth-child(2) > .CardDetailContainer_buttonAction__2Sfwo > .btn > .Button_container__1WNuB",
+      "targets": [
+        ["css=.CardDetailContainer_CardDetailContainer__smallSectionContainer__3qfM5:nth-child(2) > .CardDetailContainer_buttonAction__2Sfwo > .btn > .Button_container__1WNuB", "css:finder"],
+        ["xpath=//div[2]/div/button/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "2a4abc50-f0a3-487c-8e92-640a95022167",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=.CardDetailContainer_CardDetailContainer__smallSectionContainer__3qfM5:nth-child(2) > .CardDetailContainer_buttonAction__2Sfwo > .btn > .Button_container__1WNuB",
+      "targets": [
+        ["css=.CardDetailContainer_CardDetailContainer__smallSectionContainer__3qfM5:nth-child(2) > .CardDetailContainer_buttonAction__2Sfwo > .btn > .Button_container__1WNuB", "css:finder"],
+        ["xpath=//div[2]/div/button/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "e894e798-f97c-421f-97ea-94d662514adb",
+      "comment": "",
+      "command": "click",
+      "target": "css=.ManageMoveCard_listSection__listName__TN7R2 > p",
+      "targets": [
+        ["css=.ManageMoveCard_listSection__listName__TN7R2 > p", "css:finder"],
+        ["xpath=//div[2]/div/div/div[3]/div/div/p", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "f900f7fa-0a90-4852-9c8e-acf40914b713",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.CardDetailContainer_buttonAction__2Sfwo:nth-child(3) > div .Button_container__1WNuB",
+      "targets": [
+        ["css=.CardDetailContainer_buttonAction__2Sfwo:nth-child(3) > div .Button_container__1WNuB", "css:finder"],
+        ["xpath=//div[2]/div[2]/div[2]/div/button/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "a6100a81-b61f-4a93-8a4f-04e48d4bc6ff",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Testing",
+      "targets": [
+        ["linkText=Testing", "linkText"],
+        ["css=.ListNameOption_listSection__2cM1h:nth-child(2) > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Testing')]", "xpath:link"],
+        ["xpath=//div[2]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Testing')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "f441c726-8301-4afe-8b8e-0c8bef7f1388",
+      "comment": "",
+      "command": "click",
+      "target": "css=.ManageMoveCard_listSection__listPosition__1IK-_ > p",
+      "targets": [
+        ["css=.ManageMoveCard_listSection__listPosition__1IK-_ > p", "css:finder"],
+        ["xpath=//div[2]/div/div/div[3]/div/div[2]/p", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "48389068-ed04-4111-a25f-74564adc3291",
+      "comment": "",
+      "command": "click",
+      "target": "css=.ListPositionOption_listSection__33hZ8",
+      "targets": [
+        ["css=.ListPositionOption_listSection__33hZ8", "css:finder"],
+        ["xpath=//div[2]/div/div/div[3]/div/div[2]/div/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "f02c47a0-058f-4e4e-b577-f834ad4fa03f",
+      "comment": "",
+      "command": "click",
+      "target": "css=.btn-success > .Button_container__1WNuB",
+      "targets": [
+        ["css=.btn-success > .Button_container__1WNuB", "css:finder"],
+        ["xpath=//div[4]/button/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "b6a16985-01ac-43ea-93a7-773e1fa2a1b6",
+      "comment": "",
+      "command": "click",
+      "target": "css=.close > span:nth-child(1)",
+      "targets": [
+        ["css=.close > span:nth-child(1)", "css:finder"],
+        ["xpath=//button/span", "xpath:position"],
+        ["xpath=//span[contains(.,'×')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "41f59ef1-74b0-43f1-a3c5-218d2bc9d6b4",
+      "comment": "",
+      "command": "click",
+      "target": "css=.OverlayButton_container__3kxDV:nth-child(3) .ModalLinkNoDecor_ModalLink__1zSCj",
+      "targets": [
+        ["css=.OverlayButton_container__3kxDV:nth-child(3) .ModalLinkNoDecor_ModalLink__1zSCj", "css:finder"],
+        ["xpath=//div[@id='listcard_content-0']/div[3]/div/div/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/cards/61232341b94eac40d4e07c59')]", "xpath:href"],
+        ["xpath=//div[3]/div/div/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "ef7fc39d-da20-49e2-83ee-a947a0b88183",
+      "comment": "",
+      "command": "click",
+      "target": "css=.CardDetailContainer_CardDetailContainer__smallSectionContainer__3qfM5:nth-child(2) > .CardDetailContainer_buttonAction__2Sfwo > .btn > .Button_container__1WNuB",
+      "targets": [
+        ["css=.CardDetailContainer_CardDetailContainer__smallSectionContainer__3qfM5:nth-child(2) > .CardDetailContainer_buttonAction__2Sfwo > .btn > .Button_container__1WNuB", "css:finder"],
+        ["xpath=//div[2]/div/button/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "180e6c7c-075d-48ed-b0fb-805cdbcb357d",
+      "comment": "",
+      "command": "click",
+      "target": "css=.ManageMoveCard_listSection__listName__TN7R2 > p",
+      "targets": [
+        ["css=.ManageMoveCard_listSection__listName__TN7R2 > p", "css:finder"],
+        ["xpath=//div[2]/div/div/div[3]/div/div/p", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "ad345f64-4562-4a3e-87f8-054850b7f651",
+      "comment": "",
+      "command": "click",
+      "target": "css=.ListNameOption_listSection__2cM1h:nth-child(2)",
+      "targets": [
+        ["css=.ListNameOption_listSection__2cM1h:nth-child(2)", "css:finder"],
+        ["xpath=//div[2]/div/div/div[3]/div/div[2]/div[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "15de78c7-3e27-4a3a-907a-d24719bb5e3c",
+      "comment": "",
+      "command": "click",
+      "target": "css=.ManageMoveCard_listSection__listPosition__1IK-_ > p",
+      "targets": [
+        ["css=.ManageMoveCard_listSection__listPosition__1IK-_ > p", "css:finder"],
+        ["xpath=//div[2]/div/div/div[3]/div/div[2]/p", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "cb7caee0-1820-47be-a1d2-74396f2557d3",
+      "comment": "",
+      "command": "click",
+      "target": "css=.ListPositionOption_listSection__33hZ8",
+      "targets": [
+        ["css=.ListPositionOption_listSection__33hZ8", "css:finder"],
+        ["xpath=//div[2]/div/div/div[3]/div/div[2]/div/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "b92ebe75-116b-4b52-a01c-207485c7aa85",
+      "comment": "",
+      "command": "click",
+      "target": "css=.btn-success > .Button_container__1WNuB",
+      "targets": [
+        ["css=.btn-success > .Button_container__1WNuB", "css:finder"],
+        ["xpath=//div[4]/button/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "4193e4ca-9302-4a60-8aa1-c2d2f6f61d54",
+      "comment": "",
+      "command": "click",
+      "target": "css=.close > span:nth-child(1)",
+      "targets": [
+        ["css=.close > span:nth-child(1)", "css:finder"],
+        ["xpath=//button/span", "xpath:position"],
+        ["xpath=//span[contains(.,'×')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "f78c96e7-685c-459c-ad29-bee1bc9753fe",
+      "comment": "",
+      "command": "click",
+      "target": "css=#listcard_content-0 > .OverlayButton_container__3kxDV:nth-child(2) .ModalLinkNoDecor_ModalLink__1zSCj",
+      "targets": [
+        ["css=#listcard_content-0 > .OverlayButton_container__3kxDV:nth-child(2) .ModalLinkNoDecor_ModalLink__1zSCj", "css:finder"],
+        ["xpath=//div[@id='listcard_content-0']/div[2]/div/div/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/cards/61226227b94eac6bc2e03cc6')]", "xpath:href"],
+        ["xpath=//div[2]/div/div/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "86240a01-8532-447a-8c91-15398f8ecf85",
+      "comment": "",
+      "command": "click",
+      "target": "css=.CardDetailContainer_CardDetailContainer__smallSectionContainer__3qfM5:nth-child(2) > .CardDetailContainer_buttonAction__2Sfwo > .btn .MuiSvgIcon-root",
+      "targets": [
+        ["css=.CardDetailContainer_CardDetailContainer__smallSectionContainer__3qfM5:nth-child(2) > .CardDetailContainer_buttonAction__2Sfwo > .btn .MuiSvgIcon-root", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "0bc08e9d-20df-454f-bf5d-c64758734985",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.CardDetailContainer_CardDetailContainer__smallSectionContainer__3qfM5:nth-child(2) > .CardDetailContainer_buttonAction__2Sfwo > .btn .MuiSvgIcon-root",
+      "targets": [
+        ["css=.CardDetailContainer_CardDetailContainer__smallSectionContainer__3qfM5:nth-child(2) > .CardDetailContainer_buttonAction__2Sfwo > .btn .MuiSvgIcon-root", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "26ce6ff4-e14d-4a42-bd6f-f6696e96f105",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=.CardDetailContainer_CardDetailContainer__smallSectionContainer__3qfM5:nth-child(2) > .CardDetailContainer_buttonAction__2Sfwo > .btn .MuiSvgIcon-root",
+      "targets": [
+        ["css=.CardDetailContainer_CardDetailContainer__smallSectionContainer__3qfM5:nth-child(2) > .CardDetailContainer_buttonAction__2Sfwo > .btn .MuiSvgIcon-root", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "18bf1ab3-a681-4f76-b9f1-258be9d93e6b",
+      "comment": "",
+      "command": "click",
+      "target": "css=.ManageMoveCard_listSection__listName__TN7R2 > p",
+      "targets": [
+        ["css=.ManageMoveCard_listSection__listName__TN7R2 > p", "css:finder"],
+        ["xpath=//div[2]/div/div/div[3]/div/div/p", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "ff7c0ac3-6a94-4085-bf40-36e368c6151f",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Testing",
+      "targets": [
+        ["linkText=Testing", "linkText"],
+        ["css=.ListNameOption_listSection__2cM1h:nth-child(2) > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Testing')]", "xpath:link"],
+        ["xpath=//div[2]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Testing')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "50e09a2b-d4f0-4916-9938-494d2ca13163",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Position",
+      "targets": [
+        ["linkText=Position", "linkText"],
+        ["css=.ManageMoveCard_listSection__listPosition__1IK-_ > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Position')]", "xpath:link"],
+        ["xpath=//div[2]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Position')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "3ac9afcb-bb15-4ebc-804b-8dc6b7d43166",
+      "comment": "",
+      "command": "click",
+      "target": "css=.ListPositionOption_listSection__33hZ8:nth-child(1)",
+      "targets": [
+        ["css=.ListPositionOption_listSection__33hZ8:nth-child(1)", "css:finder"],
+        ["xpath=//div[2]/div/div/div[3]/div/div[2]/div/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "30d1fedf-86c9-4b2f-a3f5-44e986032f1d",
+      "comment": "",
+      "command": "click",
+      "target": "css=.btn-success > .Button_container__1WNuB",
+      "targets": [
+        ["css=.btn-success > .Button_container__1WNuB", "css:finder"],
+        ["xpath=//div[4]/button/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "f5344448-fc17-4397-8ef4-54ce8de3aefb",
+      "comment": "",
+      "command": "click",
+      "target": "css=.close > span:nth-child(1)",
+      "targets": [
+        ["css=.close > span:nth-child(1)", "css:finder"],
+        ["xpath=//button/span", "xpath:position"],
+        ["xpath=//span[contains(.,'×')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "68ba966f-d203-4818-85bf-9b33498dbfbe",
+      "comment": "",
+      "command": "click",
+      "target": "css=#listcard_content-0 .ModalLinkNoDecor_ModalLink__1zSCj",
+      "targets": [
+        ["css=#listcard_content-0 .ModalLinkNoDecor_ModalLink__1zSCj", "css:finder"],
+        ["xpath=//div[@id='listcard_content-0']/div/div/div/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/cards/6120cd41b94eac18e6df8854')]", "xpath:href"],
+        ["xpath=//div/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "1613f4dd-9ee2-4d88-ae21-d37348bd36de",
+      "comment": "",
+      "command": "click",
+      "target": "css=.CardDetailContainer_CardDetailContainer__smallSectionContainer__3qfM5:nth-child(2) > .CardDetailContainer_buttonAction__2Sfwo > .btn > .Button_container__1WNuB",
+      "targets": [
+        ["css=.CardDetailContainer_CardDetailContainer__smallSectionContainer__3qfM5:nth-child(2) > .CardDetailContainer_buttonAction__2Sfwo > .btn > .Button_container__1WNuB", "css:finder"],
+        ["xpath=//div[2]/div/button/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "ee506f69-b30e-44cb-a824-d100eb9444e9",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.CardDetailContainer_CardDetailContainer__smallSectionContainer__3qfM5:nth-child(2) > .CardDetailContainer_buttonAction__2Sfwo > .btn > .Button_container__1WNuB",
+      "targets": [
+        ["css=.CardDetailContainer_CardDetailContainer__smallSectionContainer__3qfM5:nth-child(2) > .CardDetailContainer_buttonAction__2Sfwo > .btn > .Button_container__1WNuB", "css:finder"],
+        ["xpath=//div[2]/div/button/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "7c0de8e4-aae3-4882-a166-4dd1eb52a259",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=.CardDetailContainer_CardDetailContainer__smallSectionContainer__3qfM5:nth-child(2) > .CardDetailContainer_buttonAction__2Sfwo > .btn > .Button_container__1WNuB",
+      "targets": [
+        ["css=.CardDetailContainer_CardDetailContainer__smallSectionContainer__3qfM5:nth-child(2) > .CardDetailContainer_buttonAction__2Sfwo > .btn > .Button_container__1WNuB", "css:finder"],
+        ["xpath=//div[2]/div/button/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "36cc0b8e-eac2-450c-9116-62aeb2cb79b9",
+      "comment": "",
+      "command": "click",
+      "target": "css=.ManageMoveCard_listSection__listName__TN7R2 > p",
+      "targets": [
+        ["css=.ManageMoveCard_listSection__listName__TN7R2 > p", "css:finder"],
+        ["xpath=//div[2]/div/div/div[3]/div/div/p", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "7d3f2c6e-fca0-488c-b6dd-978e21b99f34",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Testing",
+      "targets": [
+        ["linkText=Testing", "linkText"],
+        ["css=.ListNameOption_listSection__2cM1h:nth-child(2) > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Testing')]", "xpath:link"],
+        ["xpath=//div[2]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Testing')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "7af50dbc-6882-4fba-b745-cdeed13d339a",
+      "comment": "",
+      "command": "click",
+      "target": "css=.ManageMoveCard_listSection__listPosition__1IK-_ > p",
+      "targets": [
+        ["css=.ManageMoveCard_listSection__listPosition__1IK-_ > p", "css:finder"],
+        ["xpath=//div[2]/div/div/div[3]/div/div[2]/p", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "e89d9ebb-b0c5-4e48-900e-f42760fc456a",
+      "comment": "",
+      "command": "click",
+      "target": "css=.ListPositionOption_listSection__33hZ8:nth-child(1)",
+      "targets": [
+        ["css=.ListPositionOption_listSection__33hZ8:nth-child(1)", "css:finder"],
+        ["xpath=//div[2]/div/div/div[3]/div/div[2]/div/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "92c7255c-2e24-4680-9fef-679e51fa468e",
+      "comment": "",
+      "command": "click",
+      "target": "css=.btn-success > .Button_container__1WNuB",
+      "targets": [
+        ["css=.btn-success > .Button_container__1WNuB", "css:finder"],
+        ["xpath=//div[4]/button/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "ea692357-4dab-49ff-9736-25338d069513",
+      "comment": "",
+      "command": "click",
+      "target": "css=.close > span:nth-child(1)",
+      "targets": [
+        ["css=.close > span:nth-child(1)", "css:finder"],
+        ["xpath=//button/span", "xpath:position"],
+        ["xpath=//span[contains(.,'×')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "47dc3b7e-7cc3-48f7-b3a9-b848d81b708b",
+      "comment": "",
+      "command": "close",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }]
+  }, {
+    "id": "8def5b04-df08-4c4e-b26d-7b6f4f841d7a",
+    "name": "TC01.11 Check response of toggle member id card(3a.ii) ",
+    "commands": [{
+      "id": "568cbbae-ee9f-4087-a9dc-6dddd3df66c5",
+      "comment": "",
+      "command": "open",
+      "target": "https://staging.cicle.app/teams/61113436ca295354773160da",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "7caac404-9599-48b6-bd8c-1cc3d25ca299",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "974x1080",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "36d93466-817e-4de1-83a3-7743ecf6c865",
+      "comment": "",
+      "command": "click",
+      "target": "css=.TeamPage_colBox__1rz7F:nth-child(4) .card-title",
+      "targets": [
+        ["css=.TeamPage_colBox__1rz7F:nth-child(4) .card-title", "css:finder"],
+        ["xpath=//div[@id='root']/div[2]/div/div[2]/div/div[3]/div[4]/a/div/div/div", "xpath:idRelative"],
+        ["xpath=//div[4]/a/div/div/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "b0e96eb6-688c-4195-b5f3-17ce597c7a36",
+      "comment": "",
+      "command": "click",
+      "target": "css=.List_List__30q9z:nth-child(1) .ListContainer_ListContainer__buttonBottom__2kZAI",
+      "targets": [
+        ["css=.List_List__30q9z:nth-child(1) .ListContainer_ListContainer__buttonBottom__2kZAI", "css:finder"],
+        ["xpath=//div[@id='root']/div[2]/div/div/div/div/div[2]/div/div/div/div/div[4]", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div/div/div/div[4]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "b82e3088-f514-4c73-a841-5cd7604f3243",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.btn-success > .Button_container__1WNuB",
+      "targets": [
+        ["css=.btn-success > .Button_container__1WNuB", "css:finder"],
+        ["xpath=//div[@id='root']/div[2]/div/div/div/div/div[2]/div/div/div/div/div[4]/div[3]/button/div", "xpath:idRelative"],
+        ["xpath=//button/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "a54d01e5-5240-4b8d-bf0b-b789127d85fb",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=.btn-success > .Button_container__1WNuB",
+      "targets": [
+        ["css=.btn-success > .Button_container__1WNuB", "css:finder"],
+        ["xpath=//div[@id='root']/div[2]/div/div/div/div/div[2]/div/div/div/div/div[4]/div[3]/button/div", "xpath:idRelative"],
+        ["xpath=//button/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "3b007da0-c051-48e4-a7cb-e55a741dc25b",
+      "comment": "",
+      "command": "type",
+      "target": "css=.form-control",
+      "targets": [
+        ["css=.form-control", "css:finder"],
+        ["xpath=//div[@id='root']/div[2]/div/div/div/div/div[2]/div/div/div/div/div[4]/div/form/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "Button Navigation Bar"
+    }, {
+      "id": "1736332b-3a3a-4426-bc50-b8dd5ace7d28",
+      "comment": "",
+      "command": "click",
+      "target": "css=.btn-success > .Button_container__1WNuB",
+      "targets": [
+        ["css=.btn-success > .Button_container__1WNuB", "css:finder"],
+        ["xpath=//div[@id='root']/div[2]/div/div/div/div/div[2]/div/div/div/div/div[4]/div[3]/button/div", "xpath:idRelative"],
+        ["xpath=//button/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "8df79564-2dc8-4747-b440-5d1e273d3ac6",
+      "comment": "",
+      "command": "click",
+      "target": "css=.OverlayButton_container__3kxDV:nth-child(1) > .OverlayButton_box__2jFLd > .SmallCard_SmallCard__xuek9 > .ModalLinkNoDecor_ModalLink__1zSCj",
+      "targets": [
+        ["css=.OverlayButton_container__3kxDV:nth-child(1) > .OverlayButton_box__2jFLd > .SmallCard_SmallCard__xuek9 > .ModalLinkNoDecor_ModalLink__1zSCj", "css:finder"],
+        ["xpath=//div[@id='listcard_content-0']/div/div/div/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/cards/612336dab94eac4194e09ae2')]", "xpath:href"],
+        ["xpath=//div/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "1d5fd4d2-a69b-4edb-9ef8-7fecc16688dc",
+      "comment": "",
+      "command": "click",
+      "target": "css=.close > span:nth-child(1)",
+      "targets": [
+        ["css=.close > span:nth-child(1)", "css:finder"],
+        ["xpath=//button/span", "xpath:position"],
+        ["xpath=//span[contains(.,'×')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "23b201fa-f653-4805-96e5-8ff857401748",
+      "comment": "",
+      "command": "click",
+      "target": "css=.active > span",
+      "targets": [
+        ["css=.active > span", "css:finder"],
+        ["xpath=//div[@id='root']/div/nav/ol/li/a/span", "xpath:idRelative"],
+        ["xpath=//li/a/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Home')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "d4c1772d-5d0c-489e-81e3-7180df8f44be",
+      "comment": "",
+      "command": "click",
+      "target": "css=.DashboardPage_DashboardPage__flex__2rA7e:nth-child(4) > .LinkNoDecor_Link__3DEkL:nth-child(2) h1",
+      "targets": [
+        ["css=.DashboardPage_DashboardPage__flex__2rA7e:nth-child(4) > .LinkNoDecor_Link__3DEkL:nth-child(2) h1", "css:finder"],
+        ["xpath=//div[@id='root']/div[2]/div/div[2]/div[4]/a[2]/div/h1", "xpath:idRelative"],
+        ["xpath=//a[2]/div/h1", "xpath:position"],
+        ["xpath=//h1[contains(.,'Paket A 2')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "9ae23504-224b-4af8-bc8f-13575439899c",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.TeamPage_colBox__1rz7F:nth-child(2) .w-50",
+      "targets": [
+        ["css=.TeamPage_colBox__1rz7F:nth-child(2) .w-50", "css:finder"],
+        ["xpath=//img[contains(@src,'https://stagingapi.cicle.app/public/images/speaker.png')]", "xpath:img"],
+        ["xpath=//div[@id='root']/div[2]/div/div[2]/div/div[3]/div[2]/a/div/div/img", "xpath:idRelative"],
+        ["xpath=//a/div/div/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "1d4ddeb7-4127-46d4-92ee-19e6125422f2",
+      "comment": "",
+      "command": "click",
+      "target": "css=.TeamPage_colBox__1rz7F:nth-child(4) .card-title",
+      "targets": [
+        ["css=.TeamPage_colBox__1rz7F:nth-child(4) .card-title", "css:finder"],
+        ["xpath=//div[@id='root']/div[2]/div/div[2]/div/div[3]/div[4]/a/div/div/div", "xpath:idRelative"],
+        ["xpath=//div[4]/a/div/div/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "66e3a7bf-f72e-44db-a316-fb4f55db2da1",
+      "comment": "",
+      "command": "close",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "f7b8a9a2-a196-493c-9060-df7f7e310822",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["178e9173-0855-41d0-abd0-55735b1b2cfd"]
+  }],
+  "urls": ["https://staging.cicle.app/", "https://staging.cicle.app/teams/61113436ca295354773160da"],
+  "plugins": []
+}

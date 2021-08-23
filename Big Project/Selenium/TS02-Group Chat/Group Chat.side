@@ -1,0 +1,470 @@
+{
+  "id": "ab7b4cd5-5b94-492b-b7a6-be4296d13914",
+  "version": "2.0",
+  "name": "Group Chat",
+  "url": "https://staging.cicle.app/",
+  "tests": [{
+    "id": "28612535-5695-4a76-b473-6542c01a09df",
+    "name": "TC02.1 Send message",
+    "commands": [{
+      "id": "ca18530f-1485-4aee-add0-50e8e80b42c1",
+      "comment": "",
+      "command": "open",
+      "target": "https://staging.cicle.app/teams/61113436ca295354773160da",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "5d09e32a-ee64-4c66-828b-23187e4651a8",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "974x1080",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "39bb901e-b41c-4d1e-87f9-5737d1b2aafe",
+      "comment": "",
+      "command": "click",
+      "target": "css=.TeamPage_colBox__1rz7F:nth-child(1) .card-title",
+      "targets": [
+        ["css=.TeamPage_colBox__1rz7F:nth-child(1) .card-title", "css:finder"],
+        ["xpath=//div[@id='root']/div[2]/div/div[2]/div/div[3]/div/a/div/div/div", "xpath:idRelative"],
+        ["xpath=//a/div/div/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "e4a8f45f-705c-475d-9378-c7847dc98fe4",
+      "comment": "",
+      "command": "editContent",
+      "target": "css=.fr-element",
+      "targets": [
+        ["css=.fr-element", "css:finder"],
+        ["xpath=//div[@id='root']/div[2]/div/div[2]/div/div[4]/div/div/div/div/div", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div[4]/div/div/div/div/div", "xpath:position"]
+      ],
+      "value": "<p>Test</p>"
+    }, {
+      "id": "0fd73908-e09c-4776-a2da-e46c4c59c67f",
+      "comment": "",
+      "command": "click",
+      "target": "css=.ChatButton_container__3Ua3q path",
+      "targets": [
+        ["css=.ChatButton_container__3Ua3q path", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "bf4ce2dd-2894-44de-88d2-0911316d1ed3",
+      "comment": "",
+      "command": "editContent",
+      "target": "css=.fr-element",
+      "targets": [
+        ["css=.fr-element", "css:finder"],
+        ["xpath=//div[@id='root']/div[2]/div/div[2]/div/div[4]/div/div/div/div/div", "xpath:idRelative"],
+        ["xpath=//div[4]/div/div/div/div/div", "xpath:position"]
+      ],
+      "value": "<p>123</p>"
+    }, {
+      "id": "def4084b-c445-4091-ade1-243204ccfb34",
+      "comment": "",
+      "command": "click",
+      "target": "css=.ChatButton_container__3Ua3q path",
+      "targets": [
+        ["css=.ChatButton_container__3Ua3q path", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "5382391a-16b6-4c26-a8e3-80ab347b023b",
+      "comment": "",
+      "command": "editContent",
+      "target": "css=.fr-element",
+      "targets": [
+        ["css=.fr-element", "css:finder"],
+        ["xpath=//div[@id='root']/div[2]/div/div[2]/div/div[4]/div/div/div/div/div", "xpath:idRelative"],
+        ["xpath=//div[4]/div/div/div/div/div", "xpath:position"]
+      ],
+      "value": "<p>!@#</p>"
+    }, {
+      "id": "a3656836-a677-481c-86fa-cbe50e16630a",
+      "comment": "",
+      "command": "click",
+      "target": "css=.ChatButton_container__3Ua3q > .MuiSvgIcon-root",
+      "targets": [
+        ["css=.ChatButton_container__3Ua3q > .MuiSvgIcon-root", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "50f13d82-1742-4a3d-bf75-a279a1a1bc73",
+      "comment": "",
+      "command": "close",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }]
+  }, {
+    "id": "09fa8788-30e6-4096-aa23-4757548c0fdc",
+    "name": "TC02.2 Send file in attachment",
+    "commands": [{
+      "id": "18f766be-9e27-42db-99b7-d1f3967efb61",
+      "comment": "",
+      "command": "open",
+      "target": "https://staging.cicle.app/teams/61113436ca295354773160da",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "6f6d0f36-372b-4037-931e-6c0937a5edd7",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "974x1080",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "1c2c52f8-fa6e-469b-8473-f8497f976e53",
+      "comment": "",
+      "command": "click",
+      "target": "css=.TeamPage_colBox__1rz7F:nth-child(1) .card-title",
+      "targets": [
+        ["css=.TeamPage_colBox__1rz7F:nth-child(1) .card-title", "css:finder"],
+        ["xpath=//div[@id='root']/div[2]/div/div[2]/div/div[3]/div/a/div/div/div", "xpath:idRelative"],
+        ["xpath=//a/div/div/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "5fc942ab-7c8b-4abd-9da3-6e002d646fd6",
+      "comment": "",
+      "command": "editContent",
+      "target": "css=.fr-element",
+      "targets": [
+        ["css=.fr-element", "css:finder"],
+        ["xpath=//div[@id='root']/div[2]/div/div[2]/div/div[4]/div/div/div/div/div", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div[4]/div/div/div/div/div", "xpath:position"]
+      ],
+      "value": "<p>Hey buddy, Here my report of my work, check it out</p>"
+    }, {
+      "id": "72c76499-89df-4fd4-8872-cc2db1cde550",
+      "comment": "",
+      "command": "click",
+      "target": "css=.ChatButton_container__3Ua3q path",
+      "targets": [
+        ["css=.ChatButton_container__3Ua3q path", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "c3476c7d-1414-4191-9015-fe6fd1169043",
+      "comment": "",
+      "command": "click",
+      "target": "css=.CreateGroupMessage_attachmentButton__i4UJs > .MuiSvgIcon-root",
+      "targets": [
+        ["css=.CreateGroupMessage_attachmentButton__i4UJs > .MuiSvgIcon-root", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "8772a74a-2bab-45bb-ab61-491ab6116842",
+      "comment": "",
+      "command": "type",
+      "target": "xpath=//input[@type='file']",
+      "targets": [
+        ["css=input", "css:finder"],
+        ["xpath=//input[@type='file']", "xpath:attributes"],
+        ["xpath=//div[@id='root']/div[2]/div/div[2]/div/div[4]/div/div[2]/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "D:\\SekolahQA\\Tugas\\SP2\\SMALL PROJECT 2.pptx"
+    }, {
+      "id": "b707de1a-3b68-47a4-8c9a-f0523a79ce6e",
+      "comment": "",
+      "command": "close",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }]
+  }, {
+    "id": "120a543e-0bc1-4fcc-8c5c-184e3d4ecbfd",
+    "name": "TC02.3 Delete message",
+    "commands": [{
+      "id": "60a47d3a-94c8-4df8-a6a8-4fccbae38676",
+      "comment": "",
+      "command": "open",
+      "target": "https://staging.cicle.app/teams/61113436ca295354773160da",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "3436ad79-d835-400c-bb32-7682bbfe5a2d",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "974x1080",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "b2722d23-ead8-41ff-9706-d52472f476e4",
+      "comment": "",
+      "command": "click",
+      "target": "css=.TeamPage_colBox__1rz7F:nth-child(1) .card-title",
+      "targets": [
+        ["css=.TeamPage_colBox__1rz7F:nth-child(1) .card-title", "css:finder"],
+        ["xpath=//div[@id='root']/div[2]/div/div[2]/div/div[3]/div/a/div/div/div", "xpath:idRelative"],
+        ["xpath=//a/div/div/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "52fab6eb-9885-4b3f-a1df-d4082e9b8352",
+      "comment": "",
+      "command": "editContent",
+      "target": "css=.fr-element",
+      "targets": [
+        ["css=.fr-element", "css:finder"],
+        ["xpath=//div[@id='root']/div[2]/div/div[2]/div/div[4]/div/div/div/div/div", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div[4]/div/div/div/div/div", "xpath:position"]
+      ],
+      "value": "<p>will u marry me?</p>"
+    }, {
+      "id": "3a89db1d-2951-41ad-afe6-025562a77ca3",
+      "comment": "",
+      "command": "click",
+      "target": "css=.ChatButton_container__3Ua3q > .MuiSvgIcon-root",
+      "targets": [
+        ["css=.ChatButton_container__3Ua3q > .MuiSvgIcon-root", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "3d5fd11d-509c-466f-8fa8-959efe6d23bd",
+      "comment": "",
+      "command": "editContent",
+      "target": "css=.fr-element",
+      "targets": [
+        ["css=.fr-element", "css:finder"],
+        ["xpath=//div[@id='root']/div[2]/div/div[2]/div/div[4]/div/div/div/div/div", "xpath:idRelative"],
+        ["xpath=//div[4]/div/div/div/div/div", "xpath:position"]
+      ],
+      "value": "<p>Oh I'm sorry, I mean, will u accompany me? Sorry for autotext</p>"
+    }, {
+      "id": "42585098-5c58-411c-ac44-8159936155c9",
+      "comment": "",
+      "command": "click",
+      "target": "css=.ChatButton_container__3Ua3q path",
+      "targets": [
+        ["css=.ChatButton_container__3Ua3q path", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "b44d3bff-c28e-40d5-94f6-4f0d0df90de8",
+      "comment": "",
+      "command": "click",
+      "target": "css=.Message_Message__3qgbO:nth-child(2) .Message_headerMessage__2REkT p",
+      "targets": [
+        ["css=.Message_Message__3qgbO:nth-child(2) .Message_headerMessage__2REkT p", "css:finder"],
+        ["xpath=//div[@id='group-chat-page']/div/div/div[2]/div/div/div/div/p", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div/div/div/p", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "1474b626-e0bc-4431-ab84-7a68c99527a2",
+      "comment": "",
+      "command": "click",
+      "target": "css=.Message_Message__3qgbO:nth-child(2) .MuiSvgIcon-root",
+      "targets": [
+        ["css=.Message_Message__3qgbO:nth-child(2) .MuiSvgIcon-root", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "4dfe5a9f-5fb5-46c0-a48e-65cd06af9c06",
+      "comment": "",
+      "command": "click",
+      "target": "css=p:nth-child(2)",
+      "targets": [
+        ["css=p:nth-child(2)", "css:finder"],
+        ["xpath=//div[@id='group-chat-page']/div/div/div[2]/div/div/div/div[3]/div/div/div/p", "xpath:idRelative"],
+        ["xpath=//div[3]/div/div/div/p", "xpath:position"],
+        ["xpath=//p[contains(.,'Delete Message')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "1c2192fd-c755-4b86-9e1d-fe9f420e3c5a",
+      "comment": "",
+      "command": "click",
+      "target": "css=.Button_container__1WNuB",
+      "targets": [
+        ["css=.Button_container__1WNuB", "css:finder"],
+        ["xpath=//div[@id='group-chat-page']/div/div/div[2]/div/div/div/div[3]/button/div", "xpath:idRelative"],
+        ["xpath=//button/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "8dbfff38-868a-4648-847e-232097532a27",
+      "comment": "",
+      "command": "close",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }]
+  }, {
+    "id": "47ba0326-c886-49e0-a351-24ce215a8772",
+    "name": "Login",
+    "commands": [{
+      "id": "c8d1d1ff-8779-4e2b-ad72-fc79e5b549eb",
+      "comment": "",
+      "command": "open",
+      "target": "https://staging.cicle.app/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "04b73ecc-0a3d-4df6-85a1-e20742af8ecc",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "974x1080",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "0d53dd91-7a72-4c88-9a0f-2825dd4131f4",
+      "comment": "",
+      "command": "click",
+      "target": "css=.NavHeader_navMemberSection__ApwJH .ImageMember_image__x7ApH",
+      "targets": [
+        ["css=.NavHeader_navMemberSection__ApwJH .ImageMember_image__x7ApH", "css:finder"],
+        ["xpath=//img[contains(@src,'https://lh3.googleusercontent.com/a-/AOh14GicHdXzrhir_UMsuA8GPlgbH1-ZvNLFJz89jpC1=s96-c')]", "xpath:img"],
+        ["xpath=//div[@id='root']/nav/div/div[2]/div/img", "xpath:idRelative"],
+        ["xpath=//div/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "c4c709d0-5e7c-4f9a-9731-1571e5db93dc",
+      "comment": "",
+      "command": "click",
+      "target": "css=.UserMenuContainer_logoutSection__1mVnM > p",
+      "targets": [
+        ["css=.UserMenuContainer_logoutSection__1mVnM > p", "css:finder"],
+        ["xpath=//div[@id='root']/nav/div/div[2]/div[2]/div[3]/div[2]/p", "xpath:idRelative"],
+        ["xpath=//div[3]/div[2]/p", "xpath:position"],
+        ["xpath=//p[contains(.,'Logout')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "09c61ad8-57c7-4f7f-8ea4-9333a96f9922",
+      "comment": "",
+      "command": "click",
+      "target": "css=.AuthPage_AuthPage__button__zJ6aQ:nth-child(3) span",
+      "targets": [
+        ["css=.AuthPage_AuthPage__button__zJ6aQ:nth-child(3) span", "css:finder"],
+        ["xpath=//div[@id='root']/div[2]/div/div[2]/div/div/button/div/span", "xpath:idRelative"],
+        ["xpath=//div/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Sign in with Google')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "aacc6c65-e0d6-4ed3-94e8-c25c84bde89a",
+      "comment": "",
+      "command": "click",
+      "target": "css=.BHzsHc",
+      "targets": [
+        ["css=.BHzsHc", "css:finder"],
+        ["xpath=//div[@id='view_container']/div/div/div[2]/div/div/div/form/span/section/div/div/div/div/ul/li[7]/div/div/div[2]", "xpath:idRelative"],
+        ["xpath=//li[7]/div/div/div[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "664bb7a2-c6c9-437c-916b-c548e85f95c1",
+      "comment": "",
+      "command": "click",
+      "target": "id=identifierId",
+      "targets": [
+        ["id=identifierId", "id"],
+        ["name=identifier", "name"],
+        ["css=#identifierId", "css:finder"],
+        ["xpath=//input[@id='identifierId']", "xpath:attributes"],
+        ["xpath=//div[@id='view_container']/div/div/div[2]/div/div/div/form/span/section/div/div/div/div/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "f5fec83d-3c17-4915-a248-4da08ef6362a",
+      "comment": "",
+      "command": "type",
+      "target": "id=identifierId",
+      "targets": [
+        ["id=identifierId", "id"],
+        ["name=identifier", "name"],
+        ["css=#identifierId", "css:finder"],
+        ["xpath=//input[@id='identifierId']", "xpath:attributes"],
+        ["xpath=//div[@id='view_container']/div/div/div[2]/div/div/div/form/span/section/div/div/div/div/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "msajidalfi"
+    }, {
+      "id": "172bc24d-90aa-486f-8f92-0e7cf2b6c042",
+      "comment": "",
+      "command": "click",
+      "target": "css=.VfPpkd-LgbsSe-OWXEXe-k8QpJ > .VfPpkd-vQzf8d",
+      "targets": [
+        ["css=.VfPpkd-LgbsSe-OWXEXe-k8QpJ > .VfPpkd-vQzf8d", "css:finder"],
+        ["xpath=//div[@id='identifierNext']/div/button/span", "xpath:idRelative"],
+        ["xpath=//button/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Next')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "3f5ffa16-e8af-4f24-882e-b34a3c5ec637",
+      "comment": "",
+      "command": "click",
+      "target": "name=password",
+      "targets": [
+        ["name=password", "name"],
+        ["css=.focus-visible", "css:finder"],
+        ["xpath=//input[@name='password']", "xpath:attributes"],
+        ["xpath=//div[@id='password']/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//div/div/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "181618f8-59ee-4c2f-9323-f56b6dd790d3",
+      "comment": "",
+      "command": "type",
+      "target": "name=password",
+      "targets": [
+        ["name=password", "name"],
+        ["css=.focus-visible", "css:finder"],
+        ["xpath=//input[@name='password']", "xpath:attributes"],
+        ["xpath=//div[@id='password']/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//div/div/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "b043781f-5af0-4292-a7b0-dfb329e4cc02",
+      "comment": "",
+      "command": "click",
+      "target": "css=.VfPpkd-LgbsSe-OWXEXe-k8QpJ > .VfPpkd-vQzf8d",
+      "targets": [
+        ["css=.VfPpkd-LgbsSe-OWXEXe-k8QpJ > .VfPpkd-vQzf8d", "css:finder"],
+        ["xpath=//div[@id='passwordNext']/div/button/span", "xpath:idRelative"],
+        ["xpath=//button/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Next')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "3ce2f91b-94a5-4bb8-97a0-b584f72f1a1f",
+      "comment": "",
+      "command": "click",
+      "target": "css=.DashboardPage_DashboardPage__flex__2rA7e:nth-child(4) > .LinkNoDecor_Link__3DEkL:nth-child(2) > .Card_Card__2LWWW",
+      "targets": [
+        ["css=.DashboardPage_DashboardPage__flex__2rA7e:nth-child(4) > .LinkNoDecor_Link__3DEkL:nth-child(2) > .Card_Card__2LWWW", "css:finder"],
+        ["xpath=//div[@id='root']/div[2]/div/div[2]/div[4]/a[2]/div", "xpath:idRelative"],
+        ["xpath=//a[2]/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "40b5ac76-8def-4276-b3e6-4f94988e3821",
+      "comment": "",
+      "command": "close",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "6e5ba311-e364-4796-a64d-4952fb8db873",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["28612535-5695-4a76-b473-6542c01a09df"]
+  }],
+  "urls": ["https://staging.cicle.app/teams/61113436ca295354773160da", "https://staging.cicle.app/"],
+  "plugins": []
+}
